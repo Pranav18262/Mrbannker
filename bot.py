@@ -38,7 +38,7 @@ rnd = ''.join(random.choices(string.ascii_lowercase +
 
 @dp.message_handler(commands=['start', 'help'], commands_prefix=PREFIX)
 async def helpstr(message: types.Message):
-    await message.answer_chat_action("Likh raha vro ruk ruk")
+    await message.answer_chat_action("typing")
     await message.reply(
         "Hello how to use <code>/chk cc/mm/yy/cvv</code>\nGroup <a href='https://t.me/indokahe'>Here</a>"
     )
@@ -98,7 +98,7 @@ TOOK ➟ <b>{toc - tic:0.4f}</b>(s)
 @dp.message_handler(commands=['chk'], commands_prefix=PREFIX)
 async def ch(message: types.Message):
     tic = time.perf_counter()
-    await message.answer_chat_action("Likh raha vro ruk ruk")
+    await message.answer_chat_action("typing")
     cc = message.text[len('/chk '):]
     splitter = cc.split('|')
     ccn = splitter[0]
