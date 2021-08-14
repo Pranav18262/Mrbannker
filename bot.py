@@ -22,8 +22,8 @@ dp = Dispatcher(bot)
 ###USE YOUR ROTATING PROXY### NEED HQ PROXIES ELSE WONT WORK UPDATE THIS FILED
 """
 proxy = {
-    "http": "http://deplaobr-rotate:ocjxpp5iucgk@p.webshare.io:80/",
-    "https": "http://deplaobr-rotate:ocjxpp5iucgk@p.webshare.io:80/",
+    "http": "http://nmfietmv-rotate:rxzyjri232ov@p.webshare.io:80",
+    "https": "https://nmfietmv-rotate:rxzyjri232ov@p.webshare.io:80",
 } 
 """
 session = requests.session()
